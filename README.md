@@ -25,13 +25,13 @@ cd docker_port_finder
 
 
 ```bash
-root# python find_port.py 8105
+root# python docker_port_finder.py 8105
 Container(s) using port [8105]:
 ##########
 container_id: 184f741c09f2, container_name: my_docer_service_1
 
 
-root# python find_port.py 6105
+root# python docker_port_finder.py 6105
 No container is using port [6105]
 ```
 
